@@ -11,7 +11,7 @@ Under the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F), 
 A determination is only as defensible as the organization's ability to show the clock. This app tracks the five clock events for every PA:
 
 1. Request received / submitted
-2. Information requested (RFI)
+2. Information requested (request for information, or RFI)
 3. Response received / sent
 4. Decision made
 5. Notice sent / received

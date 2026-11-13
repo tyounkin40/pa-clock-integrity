@@ -246,7 +246,7 @@ function viewDashboard() {
   return `
   <div class="page-head"><div>
     <h1>${provider ? 'Practice PA clock dashboard' : 'Plan PA clock dashboard'}</h1>
-    <p>${provider ? 'Every open prior authorization, its payer deadline, and the RFIs your team must answer before they turn into administrative denials.' : 'Every pended request, its decision deadline, and whether you can prove each clock event from a system of record.'}</p>
+    <p>${provider ? 'Every open prior authorization, its payer deadline, and the requests for information (RFIs) your team must answer before they turn into administrative denials.' : 'Every pended request, its decision deadline, any open requests for information (RFIs), and whether you can prove each clock event from a system of record.'}</p>
   </div><div class="btn-row"><a class="btn" href="#case/new">+ New PA</a></div></div>
 
   <div class="grid tiles">
