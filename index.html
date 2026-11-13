@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>PA Clock Integrity Dashboard · Mosaic Life Tech</title>
+<meta name="description" content="Track the five prior authorization clock events, decision deadlines, RFIs, denials and ePA readiness. Data stays in your browser.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="brand-mark" aria-hidden="true">◆</span>
+    <div>
+      <div class="brand-name">PA Clock Integrity</div>
+      <div class="brand-sub">Mosaic Life Tech</div>
+    </div>
+  </div>
+  <nav class="nav" id="nav">
+    <a href="#dashboard" data-view="dashboard">Dashboard</a>
+    <a href="#cases" data-view="cases">PA log</a>
+    <a href="#sheet" data-view="sheet">Clock sheet</a>
+    <a href="#denials" data-view="denials">Denials &amp; appeals</a>
+    <a href="#scorecard" data-view="scorecard">Scorecard</a>
+    <a href="#readiness" data-view="readiness">ePA readiness</a>
+    <a href="#settings" data-view="settings">Settings</a>
+  </nav>
+  <div class="mode-toggle" role="group" aria-label="Perspective">
+    <button type="button" data-mode="provider">Provider</button>
+    <button type="button" data-mode="payer">Payer</button>
+  </div>
+</header>
+
+<div class="notice-bar" id="noticeBar"></div>
+
+<main id="app" tabindex="-1"></main>
+
+<footer class="footer">
+  <p><strong>Data stays in this browser.</strong> Nothing is sent to a server. Use internal case numbers, not patient names, and export a backup regularly.</p>
+  <p>Operational and compliance-tracking aid only; not legal advice. Decision, response and appeal timeframes vary by program, state and contract and may change. Confirm the rules for your state and programs in Settings before relying on them.</p>
+  <p>© <span id="year"></span> Mosaic Life Tech, LLC</p>
+</footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
