@@ -290,7 +290,7 @@ function tile(label, value, sub, cls = '') {
 function emptyStart() {
   return `<div class="card empty" style="padding:48px">
     <h1>Prove every prior authorization clock</h1>
-    <p style="max-width:640px;margin:8px auto 20px">Log the five clock events for each PA — request, information request, response, decision and notice — and this dashboard tracks deadlines, RFIs, denials and gaps. Everything stays in this browser.</p>
+    <p style="max-width:640px;margin:8px auto 20px">Log the five clock events for each PA — request, information request, response, decision and notice — and this dashboard tracks deadlines, requests for information (RFIs), denials and gaps. Everything stays in this browser.</p>
     <div class="btn-row" style="justify-content:center">
       <a class="btn" href="#case/new">+ Log your first PA</a>
       <button class="btn gold" data-act="sample">Load sample data</button>
