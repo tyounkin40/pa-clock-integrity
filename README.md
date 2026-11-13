@@ -8,7 +8,7 @@ Built by **Mosaic Life Tech, LLC**.
 
 Under the CMS Interoperability and Prior Authorization Final Rule (CMS-0057-F), impacted payers must decide standard requests within 7 calendar days and expedited requests within 72 hours. They must also give specific denial reasons, publicly report PA metrics, and stand up FHIR-based Prior Authorization APIs by **January 1, 2027**. Providers face a new Electronic Prior Authorization measure in Promoting Interoperability starting with the CY 2027 performance period. Many states set even shorter windows.
 
-A determination is only as defensible as the organization's ability to show the clock. This app tracks the five clock events for every PA:
+A determination is only as defensible as the organization's ability to show the clock. This app tracks the five time dependent events for every PA:
 
 1. Request received / submitted
 2. Information requested (request for information, or RFI)
